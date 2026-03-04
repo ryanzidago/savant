@@ -1,0 +1,9 @@
+{
+  "name": "savant",
+  "version": "0.1.0",
+  "description": "Evaluate changes against 16 product engineering principles",
+  "author": {
+    "name": "Ryan Zidago"
+  },
+  "keywords": ["review", "principles", "quality", "product", "engineering"]
+}
