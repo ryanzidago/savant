@@ -35,6 +35,12 @@ Evaluate a change against all 16 product engineering principles.
 
 4. Collect all results and merge into a single report, preserving principle order (01–16). Omit principles with no findings.
 
+5. Write the report to `docs/reviews/<YYYYMMDD_HHMMSS>_<slug>.md`.
+
+   The slug should be a short kebab-case summary of what was reviewed (e.g., `add-user-invitation-flow`, `fix-tenant-scoping`).
+
+   Create the `docs/reviews/` directory if it doesn't exist. Print the full path to the saved file so the user can reference it.
+
 ## Output Format
 
 Number each finding using `<principle-number>.<finding-sequence>` where principle-number is the principle's own number (01–16) and finding-sequence is the ordinal position within that principle (1, 2, 3, ...).
