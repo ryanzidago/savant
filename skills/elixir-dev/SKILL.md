@@ -15,6 +15,8 @@ If the project has a code style guide or dev conventions doc, read it fresh ever
 
 ## Step 0: Break Down into Tasks
 
+If a plan file is provided as an argument or a recent plan exists in `docs/plans/`, read it first. Use the problem, goals, behavior, and test scenarios to inform task breakdown. Do not re-ask questions the plan already answers.
+
 Decompose the work into small, independently testable and committable tasks. Each task should represent one logical unit of work (one function, one module, one behavior change).
 
 Use `TaskCreate` for each task with:
